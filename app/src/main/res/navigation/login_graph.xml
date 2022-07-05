@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.loans.ui.fragments.registration.RegistrationFragment"
+        android:label="@string/create_account_title"
+        tools:layout="@layout/registration_fragment_layout" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.loans.ui.fragments.login.LoginFragment"
+        android:label="@string/authorization"
+        tools:layout="@layout/auth_fragment_layout" >
+
+        <action
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <action
+            android:id="@+id/action_loginFragment_to_firstrun_graph"
+            app:destination="@id/firstrun_graph"
+            app:enterAnim="@anim/slide_in_bottom"/>
+
+    </fragment>
+
+    <include app:graph="@navigation/firstrun_graph" />
+
+</navigation>

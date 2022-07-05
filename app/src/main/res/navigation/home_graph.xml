@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.loans.ui.fragments.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/home_page_fragment" >
+
+        <action
+            android:id="@+id/action_homeFragment_to_loanRequestFragment"
+            app:destination="@id/loanRequestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment"
+            app:enterAnim="@anim/slide_in_bottom"
+            app:popEnterAnim="@anim/slide_in_bottom"
+            app:popExitAnim="@anim/slide_out_bottom"/>
+
+        <action
+            android:id="@+id/action_homeFragment_to_loanDetailFragment"
+            app:destination="@id/loanDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loanRequestFragment"
+        android:name="com.example.loans.ui.fragments.request.LoanRequestFragment"
+        android:label="@string/loan_request"
+        tools:layout="@layout/loan_request_fragment" >
+
+        <argument
+            android:name="loanConditions"
+            app:argType="com.example.loans.domain.entities.LoanConditions" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.loans.ui.fragments.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/history_layout" >
+
+        <action
+            android:id="@+id/action_historyFragment_to_loanDetailFragment2"
+            app:destination="@id/loanDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loanDetailFragment"
+        android:name="com.example.loans.ui.fragments.detail.LoanDetailFragment"
+        android:label="@string/detail"
+        tools:layout="@layout/loan_detail_layout" >
+
+        <argument
+            android:name="id"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

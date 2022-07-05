@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/drawable/ic_round_credit_card_24.xml" value="0.256" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/drawable/ic_round_person_outline_24.xml" value="0.115" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/drawable/splash.xml" value="0.3635" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/drawable/splash_background.xml" value="0.3625" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/activity_main.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/auth_fragment_layout.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/first_start_instruction_layout.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/history_layout.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/home_page_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/hostory_layout.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loan_detail_layout.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loan_home_history_layout.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loan_info_layout.xml" value="0.37142857142857144" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loan_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loan_request_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/loans_item.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/main_fragment_layout.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/part_result_layout.xml" value="0.23425925925925925" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/part_result_layput.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/registration_fragment_layout.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/layout/splash_fragment_layout.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/menu/home_page_menu.xml" value="0.3212962962962963" />
+        <entry key="..\:/Users/shuti/AndroidStudioProjects/2022_q2_shutikov/app/src/main/res/menu/navigation_menu.xml" value="0.32222222222222224" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

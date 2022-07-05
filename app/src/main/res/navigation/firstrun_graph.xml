@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstrun_graph"
+    app:startDestination="@id/firstStartFragment">
+
+    <fragment
+        android:id="@+id/firstStartFragment"
+        android:name="com.example.loans.ui.fragments.information.InformationFragment"
+        android:label="@string/instruction"
+        tools:layout="@layout/first_start_instruction_layout" >
+        <action
+            android:id="@+id/action_firstStartFragment_to_home_graph"
+            app:destination="@id/home_graph" />
+    </fragment>
+
+    <include app:graph="@navigation/home_graph" />
+
+</navigation>

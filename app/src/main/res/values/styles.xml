@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DetailText" parent="MediumPrimaryText">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="HugeHeaders" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LargePrimaryText" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MediumPrimaryText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SmallPrimaryText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SmallSecondaryText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">?attr/colorTertiary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MediumSecondaryText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?attr/colorTertiary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">?attr/colorOnPrimary</item>
+        <item name="errorEnabled">true</item>
+    </style>
+
+    <style name="TextNetworkError" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="ButtonStyle" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+</resources>

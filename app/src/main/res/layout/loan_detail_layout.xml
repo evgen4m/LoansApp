@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".ui.fragments.detail.LoanDetailFragment">
+
+    <ScrollView
+        android:id="@+id/detailInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textLastname"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="15dp"
+                tools:text="Заявитель \n Иванов Иван" />
+
+            <TextView
+                android:id="@+id/textNumber"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Номер телефона \n 89949958585" />
+
+            <TextView
+                android:id="@+id/textPercent"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Процент \n 14%" />
+
+            <TextView
+                android:id="@+id/textPeriod"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Срок займа \n 50 дней" />
+
+            <TextView
+                android:id="@+id/textAmount"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Сумма займа \n 20000" />
+
+            <TextView
+                android:id="@+id/textDate"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Дата \n 2 июля 2022" />
+
+            <TextView
+                android:id="@+id/textState"
+                style="@style/DetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                tools:text="Статус заявки \n Отклонена" />
+
+            <TextView
+                android:id="@+id/receiving_info"
+                style="@style/SmallSecondaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="20dp"
+                android:text="@string/receiving_instruction"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/resultLayout"
+        layout="@layout/part_result_layout" />
+
+</FrameLayout>

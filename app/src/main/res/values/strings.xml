@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Loans</string>
+
+    //FragmentTitles
+    <string name="create_account_title">Создать аккаунт</string>
+    <string name="home">Главная</string>
+    <string name="loan_request">Оформить займ</string>
+    <string name="history">История</string>
+    <string name="detail">Информация о займе</string>
+    <string name="instruction">Инструкция</string>
+
+    <string name="authorization">Авторизация</string>
+    <string name="registration">Регистрация</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="logIn">Войти</string>
+    <string name="enter_user_name">Введите имя пользователя</string>
+    <string name="password_is_short">Пароль должен быть не менее 5 симлов!</string>
+    <string name="success_registration">Успешная регистрация, %1$s</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="welcome_back">С возвращением!</string>
+    <string name="logout">Выход</string>
+    <string name="loan_conditions">Условия получения займа</string>
+
+    //HomeFragmentTextFormat
+    <string name="maxAmount">до %1$s рублей</string>
+    <string name="amount_ruble">%1$s ₽</string>
+    <string name="percentValue">%1$s</string>
+    <string name="percent">%</string>
+    <string name="percent_text">Процент:</string>
+    <string name="period">%1$s  дней</string>
+
+    <string name="go_to_design">Перейти к оформлению</string>
+    <string name="lastname">Фамилия</string>
+    <string name="easy_and_fast">Быстро и просто</string>
+    <string name="name">Имя</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="loan_amount">Сумма займа</string>
+    <string name="interest_rate">Процентная ставка</string>
+    <string name="loan_term">Срок займа</string>
+    <string name="empty_history">Здесь будет история займов</string>
+    <string name="back_to_home">Вернуться на главную</string>
+    <string name="update">Обновить</string>
+
+    //LoanRequestFragmentTextFormat
+    <string name="interest_rate_value">Процентная ставка: %1$s</string>
+    <string name="loan_term_value">Срок займа: %1$s дней</string>
+    <string name="request_success">%1$s, ваша заявка успешно оформлена. Статус заявки можно посмотреть на главной странице.</string>
+
+    //Errors
+    <string name="network_error">Нет подключения к интернету</string>
+    <string name="user_not_found_error">Пользователь не найден, проверьте введенные данные!</string>
+    <string name="not_found_error">Данные не найдены</string>
+    <string name="access_denied_error">Отказано в доступе</string>
+    <string name="service_unavailable_error">Сервес не отвечает</string>
+    <string name="unauthorized_error">Доступ отсутствует</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="amount_error">Сумма не должна привышать лимита %1$s. Минимальная сумма 1000 рублей.</string>
+    <string name="firstname_error">Имя должно начинаться с заглавной буквы. Не содержит латинских символов</string>
+    <string name="lastname_error">Фамилия должна начинаться с заглавной буквы. Не содержит латинских символов</string>
+    <string name="field_error">Заполните поле</string>
+    <string name="phoneNumber_error">Номер телефона должен содержать 11 символов</string>
+    <string name="network_error_data_not_relevant">Нет интернет соединения, возможно данные не актуальны.</string>
+    <string name="request_error">Ошибка, повторите попытку снова!</string>
+    <string name="user_already_exist">Пользователь уже существует</string>
+    <string name="bad_request">Ошибка в запросе</string>
+    <string name="not_found_conditions">Условия займа неактуальны. Обновите историю и повторите запрос.</string>
+
+    //DetailFragmentTextFormat
+    <string name="detail_full_name"><b>Заявитель</b>:\n %1$s %2$s</string>
+    <string name="detail_number"><b>Номер телефона</b>:\n %1$s</string>
+    <string name="detail_date"><b>Дата</b>:\n %1$s</string>
+    <string name="detail_percent"><b>Процентная ставка</b>:\n %1$s</string>
+    <string name="detail_period"><b>Срок займа</b>:\n %1$s дней</string>
+    <string name="detail_amount"><b>Сумма займа</b>:\n %1$s ₽</string>
+    <string name="detail_status"><b>Статус заявки</b>:\n %1$s</string>
+
+
+    <string name="full_name">%1$s %2$s</string>
+    <string name="all_the_best">Всего доброго!</string>
+    <string name="show_history">Показать историю</string>
+    <string name="approved">Одобрено</string>
+    <string name="registered">Зарегистрировано</string>
+    <string name="rejected">Отклонено</string>
+    <string name="applicant">Заявитель</string>
+    <string name="date">Дата</string>
+    <string name="status">Статус</string>
+    <string name="start">Начинаем</string>
+
+
+    <string name="first_start_text">
+        <b>1. Как оформить займ?</b> \n
+        На главном экране ознакомьтесь с условиями.\n
+        Далее нажмите на кнопку \"Перейти к оформлению\",\n
+        и заполните необходимые данные. \n
+        <b>2. Где посмотреть статус займа?</b> \n
+        На главном экране будет отображаться\n
+        список ваших займов с актуальным статусом.\n
+        <b>3. Где я могу посмотреть всю историю займов?</b> \n
+        Для того что бы посмотреть всю историю займов\n
+        нажмите на кнопку \"Показать историю\".\n
+    </string>
+
+    <string name="receiving_instruction">Получения наличных средств возможно при обращении в отделение банков партнеров.
+        При себе необходимо иметь паспорт для подтверждения личности.
+        \n\nДля получение средств на ваш счет, необходимо заполнить данные вашей карты и указать номер телефона.
+        После подачи запроса необходимо подтвердить вывод средств указав код из SMS сообщения.
+        Денежные средства поступят на вашу карту в течении одного рабочего дня.
+    </string>
+
+
+</resources>

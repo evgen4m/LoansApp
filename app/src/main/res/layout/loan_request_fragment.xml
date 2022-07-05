@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_margin="@dimen/layoutMargin"
+    tools:context=".ui.fragments.request.LoanRequestFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/requestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textLogIn"
+                style="@style/HugeHeaders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/easy_and_fast" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldLastname"
+                style="@style/TextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastname"
+                android:visibility="visible"
+                app:startIconDrawable="@drawable/ic_round_person_outline_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textLastnameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldFirstname"
+                style="@style/TextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:visibility="visible"
+                app:startIconDrawable="@drawable/ic_round_person_outline_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textFirstnameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldNumber"
+                style="@style/TextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:visibility="visible"
+                app:startIconDrawable="@drawable/ic_round_phone_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textNumberInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textFieldAmount"
+                style="@style/TextInputLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loan_amount"
+                android:visibility="visible"
+                app:startIconDrawable="@drawable/ic_baseline_account_balance_wallet_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textAmountInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textPercent"
+                style="@style/MediumPrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewMargin"
+                android:text="@string/percentValue"
+                tools:text="Процентная ставка: 0%" />
+
+            <TextView
+                android:id="@+id/textPeriod"
+                style="@style/MediumPrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewMargin"
+                android:text="@string/percentValue"
+                tools:text="Срок займа: 7 дней" />
+
+            <Button
+                android:id="@+id/buttonLoanRequest"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/loan_request" />
+
+
+        </LinearLayout>
+
+       <include
+           android:id="@+id/resultLayout"
+           layout="@layout/part_result_layout"/>
+
+    </FrameLayout>
+
+</ScrollView>
